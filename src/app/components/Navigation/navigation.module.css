@@ -1,0 +1,23 @@
+
+.active {
+    border-radius: 10%; /* Bordes redondeados */
+    margin-bottom: 20px; /* Ajuste para la línea */
+    font-size: 1rem !important;
+    color: white;
+    position: relative; /* Para posicionar la línea */
+}
+
+.active:after {
+    content: ''; /* Contenido generado */
+    position: absolute;
+    width: 100%;
+    height: 5px; /* Altura de la línea (ajustar según lo deseado) */
+    background-image: linear-gradient(to right, #1AF9EB, #4504FF); /* Fondo degradado similar */
+    bottom: -10px;
+    left: 0;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 1rem;
+}
